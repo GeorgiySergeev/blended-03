@@ -30,6 +30,9 @@ export const Select = styled.select`
   color: #fff;
 
   cursor: pointer;
+  & option {
+    background-color: #337085;
+  }
 `;
 
 export const BtnSearch = styled.button`
